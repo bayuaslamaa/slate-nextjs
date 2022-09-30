@@ -17,3 +17,5 @@ npm run dev
 yarn dev
 ```
 
+## Demo
+You can access https://takehome-project-omega.vercel.app/

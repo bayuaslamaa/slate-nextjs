@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useMemo, useState, useCallback } from "react";
 import { createEditor, Transforms, Editor, Text } from "slate";
 import { Slate, Editable, withReact } from "slate-react";
@@ -68,7 +69,7 @@ export default function SlateComponent() {
         <ul>
             <li>You can switch to <b>code blocks</b> by toggle <code> ctrl + {"\'\`\'"}</code></li>
             <li>You can make your text  <b>bold</b> by toggle <code> ctrl + {"\'b\'"}</code></li>
-            <li>Another functions is on progress, please enjoy it and let me know if you want to contribute</li>
+            <li>Another functions is on progress, please enjoy it and let me know if you want to contribute, Check <a href="https://github.com/bayuaslamaa/slate-nextjs"> <u>Github Repo</u></a></li>
         </ul>
     <div
       style={{
